@@ -70,7 +70,7 @@ h2 {
     font-size: 2vmax !important;
 }
 
-p {
+p, form {
     font-size: 1.5vmax !important;
 }
 
@@ -91,13 +91,13 @@ p {
     font-size: 2.1vmax;
     color: #FFFFFF;
     text-shadow: 2px 2px 0 #0F4C75,
-                 2px -2px 0 #0F4C75,
-                 -2px 2px 0 #0F4C75,
-                 -2px -2px 0 #0F4C75,
-                 2px 0 0 #0F4C75,
-                 0 2px 0 #0F4C75,
-                 -2px 0 0 #0F4C75,
-                 0 -2px 0 #0F4C75;
+    2px -2px 0 #0F4C75,
+    -2px 2px 0 #0F4C75,
+    -2px -2px 0 #0F4C75,
+    2px 0 0 #0F4C75,
+    0 2px 0 #0F4C75,
+    -2px 0 0 #0F4C75,
+    0 -2px 0 #0F4C75;
     margin-top: 10vh;
 }
 
@@ -190,6 +190,14 @@ p {
 .service-column-border-x {
     border-left: 2vw solid var(--main-color-blue);
     border-right: 2vw solid var(--main-color-blue);
+}
+
+.intl-tel-input {
+    width: 100%;
+}
+
+.iti.iti--allow-dropdown {
+    width: 100%
 }
 
 

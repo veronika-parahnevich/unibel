@@ -9,11 +9,16 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/intlTelInput.css" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/af9091890d.js" crossorigin="anonymous"></script>
     <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script defer src="js/bootstrap.min.js"></script>
     <script defer src="js/script.js"></script>
+    <script defer src="js/intlTelInput-jquery.min.js"></script>
+    <script defer src="js/input-validation-init.js"></script>
+
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 </head>
 
 <body class="bg-white">
@@ -71,10 +76,10 @@
             <a href="#why-bel-href" class="text-main-color">Почему Беларусь</a>
         </div>
         <div class="col-lg-2 d-none d-lg-block nav-link">
-            <a href="#promotions" class="text-main-color">Пакеты услуг</a>
+            <a href="#services-us-href" class="text-main-color">Пакеты услуг</a>
         </div>
         <div class="col-lg-2 d-none d-lg-block nav-link">
-            <a href="#our-contacts" class="text-main-color">Контакты</a>
+            <a href="#our-contacts-href" class="text-main-color">Контакты</a>
         </div>
         <div class="col-lg-1 col-2 px-0 text-lg-center">
         </div>
@@ -254,7 +259,9 @@
                     </tr>
                     <tr>
                         <td>Премиум</td>
-                        <td>Подбор учереждения, оформления документов, помощь с жильем, встреча в аэропорте, показаз полной инфроструктуры города</td>
+                        <td>Подбор учереждения, оформления документов, помощь с жильем, встреча в аэропорте, показаз
+                            полной инфроструктуры города
+                        </td>
                         <td>300$</td>
                     </tr>
                     </tbody>
@@ -263,15 +270,38 @@
         </div>
     </div>
 
-    <div id="promotions" class="row m-0">
-    </div>
-
-    <div id="client-path" class="row m-0">
-
-    </div>
-
-    <div id="our-contacts" class="row m-0">
-
+    <div id="our-contacts-href" class="py-3 py-lg-5 bg-main-color no-gutters"></div>
+    <
+    <div id="our-contacts" class="row m-0 py-3 py-lg-5">
+        <div class="col-xl-2 d-xl-block d-none"></div>
+        <div class="col-xl-8 p-0">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="text-main-color header-white-shadow">
+                            Контакты
+                        </h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <form method="post">
+                            <div class="form-group">
+                                <label for="inputName">Имя</label>
+                                <input type="text" class="form-control" id="inputName" name="name" placeholder="Вероника">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPhone">Телефон</label>
+                                <input type="phone" class="form-control" id="inputPhone" name="phone">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Отправить</button>
+                        </form>
+                    </div>
+                    <div class="col">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </main>
 
