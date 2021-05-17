@@ -200,6 +200,10 @@ p, form {
     width: 100%
 }
 
+.iti__selected-flag {
+    margin-bottom: 1vmax;
+}
+
 
 /*Media quarries*/
 @media (max-width: 576px) {
