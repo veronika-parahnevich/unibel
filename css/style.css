@@ -135,6 +135,9 @@ p {
     padding: 1rem 0;
 }
 
+#services-table {
+    font-size: 1.5vmax !important;
+}
 
 /*Classes*/
 .progress {
